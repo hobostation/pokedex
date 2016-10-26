@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC9090FE1DC0B9A30050775E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9090FD1DC0B9A30050775E /* AppDelegate.swift */; };
+		DC9091001DC0B9A30050775E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9090FF1DC0B9A30050775E /* ViewController.swift */; };
+		DC9091031DC0B9A40050775E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC9091011DC0B9A40050775E /* Main.storyboard */; };
+		DC9091051DC0B9A40050775E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC9091041DC0B9A40050775E /* Assets.xcassets */; };
+		DC9091081DC0B9A40050775E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC9091061DC0B9A40050775E /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC9090FA1DC0B9A30050775E /* pokedex-by-devslopes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pokedex-by-devslopes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC9090FD1DC0B9A30050775E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC9090FF1DC0B9A30050775E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC9091021DC0B9A40050775E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC9091041DC0B9A40050775E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC9091071DC0B9A40050775E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC9091091DC0B9A40050775E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC9090F71DC0B9A30050775E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC9090F11DC0B9A30050775E = {
+			isa = PBXGroup;
+			children = (
+				DC9090FC1DC0B9A30050775E /* pokedex-by-devslopes */,
+				DC9090FB1DC0B9A30050775E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC9090FB1DC0B9A30050775E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC9090FA1DC0B9A30050775E /* pokedex-by-devslopes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC9090FC1DC0B9A30050775E /* pokedex-by-devslopes */ = {
+			isa = PBXGroup;
+			children = (
+				DC9090FD1DC0B9A30050775E /* AppDelegate.swift */,
+				DC9090FF1DC0B9A30050775E /* ViewController.swift */,
+				DC9091011DC0B9A40050775E /* Main.storyboard */,
+				DC9091041DC0B9A40050775E /* Assets.xcassets */,
+				DC9091061DC0B9A40050775E /* LaunchScreen.storyboard */,
+				DC9091091DC0B9A40050775E /* Info.plist */,
+			);
+			path = "pokedex-by-devslopes";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC9090F91DC0B9A30050775E /* pokedex-by-devslopes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC90910C1DC0B9A40050775E /* Build configuration list for PBXNativeTarget "pokedex-by-devslopes" */;
+			buildPhases = (
+				DC9090F61DC0B9A30050775E /* Sources */,
+				DC9090F71DC0B9A30050775E /* Frameworks */,
+				DC9090F81DC0B9A30050775E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "pokedex-by-devslopes";
+			productName = "pokedex-by-devslopes";
+			productReference = DC9090FA1DC0B9A30050775E /* pokedex-by-devslopes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC9090F21DC0B9A30050775E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = hobostation;
+				TargetAttributes = {
+					DC9090F91DC0B9A30050775E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = DC9090F51DC0B9A30050775E /* Build configuration list for PBXProject "pokedex-by-devslopes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC9090F11DC0B9A30050775E;
+			productRefGroup = DC9090FB1DC0B9A30050775E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC9090F91DC0B9A30050775E /* pokedex-by-devslopes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC9090F81DC0B9A30050775E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC9091081DC0B9A40050775E /* LaunchScreen.storyboard in Resources */,
+				DC9091051DC0B9A40050775E /* Assets.xcassets in Resources */,
+				DC9091031DC0B9A40050775E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC9090F61DC0B9A30050775E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC9091001DC0B9A30050775E /* ViewController.swift in Sources */,
+				DC9090FE1DC0B9A30050775E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC9091011DC0B9A40050775E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC9091021DC0B9A40050775E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC9091061DC0B9A40050775E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC9091071DC0B9A40050775E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC90910A1DC0B9A40050775E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC90910B1DC0B9A40050775E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC90910D1DC0B9A40050775E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "pokedex-by-devslopes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hobostation.pokedex-by-devslopes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DC90910E1DC0B9A40050775E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "pokedex-by-devslopes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hobostation.pokedex-by-devslopes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC9090F51DC0B9A30050775E /* Build configuration list for PBXProject "pokedex-by-devslopes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC90910A1DC0B9A40050775E /* Debug */,
+				DC90910B1DC0B9A40050775E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC90910C1DC0B9A40050775E /* Build configuration list for PBXNativeTarget "pokedex-by-devslopes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC90910D1DC0B9A40050775E /* Debug */,
+				DC90910E1DC0B9A40050775E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC9090F21DC0B9A30050775E /* Project object */;
+}
